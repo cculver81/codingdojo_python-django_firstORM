@@ -7,5 +7,12 @@
 </head>
 <body>
     <p>I'm about to kick Djan-A$$!!!</p>
+
+    <h1>All Movies</h1>
+    <ul>
+        {% for movie in all_the_movies %}
+            <li>{{ movie.title }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
